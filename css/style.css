@@ -1,36 +1,30 @@
 body {
-    background-color: #19820B;
     font-family: "Lato", sans-serif;
     font-weight: 300;
     margin: 0;
-    color: #291f1a;
 }
 
 #menu {
     position: fixed;
     right: 15px;
-  
+    text-align: center;
 }
 
 #menu .menu-item {
-    text-decoration: none;
     display: inline-block;
-}
-#menu ul {
-    margin: 0;
+    text-decoration: none;
 }
 
 #menu .menu-item a {
-    text-decoration: none;
     color: #1ac056;
+    text-decoration: none;
 }
 
-#header img {
-    width: 100%;
-}
+#main-header {
+    text-align: center;
+    background: url("../img/header-background.jpg");
+    padding: 30vh;
+    background-size: cover;
 
-#header h1 {
-    
-    
-    
+
 }
