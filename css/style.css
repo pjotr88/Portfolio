@@ -22,9 +22,37 @@ body {
 
 #main-header {
     text-align: center;
-    background: url("../img/header-background.jpg");
-    padding: 30vh;
+    background: url("../img/header-background.jpg");    
     background-size: cover;
 
+}
+
+
+.main-header-content {
+    padding: 30vh;
 
 }
+
+
+.main-header-content h1 {
+    
+    
+}
+
+
+#about {
+    float: left;
+    width: 100%;
+}
+
+
+img {
+    float: left;
+    height: 350px;
+    
+}
+
+article {
+    width: 50%;
+}
+
