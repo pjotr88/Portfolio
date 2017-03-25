@@ -6,10 +6,8 @@ body {
 }
 
 span {
-    
-    color: green;
-    font-weight: 400;
-    
+    color: #1ac056;
+    font-weight: 500;
 }
 
 #menu {
@@ -22,12 +20,12 @@ span {
     width: 100%;
 }
 
-#menu > ul {
+#menu>ul {
     margin: 0;
     float: right;
 }
 
-#menu > ul > li {
+#menu>ul>li {
     display: inline-block;
     list-style: none;
     padding: 20px 40px;
@@ -52,28 +50,47 @@ span {
 .main-header-content {
     padding: 30vh;
     color: white;
-    
+    padding-top: 60vh;
 }
 
-.main-header-content h1 {
-    color: white;
+#name1 {
+    font-size: 80px;
+    font-weight: 300;
 }
 
-.main-header-content h2 {
-    
-    
+#zawod {
+    font-weight: 200;
 }
 
 #about {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#about h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+    width: 50%;
     float: left;
-    width: 100%;
+    margin: 0;
 }
 
 img {
-    float: left;
     height: 350px;
 }
 
 article {
     width: 50%;
+    float: left;
 }
+
+p {
+    margin: 0;
+}
+
+
