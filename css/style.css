@@ -64,13 +64,17 @@ span {
 
 #about {
     display: inline-block;
-    margin-top: 30px;
+    padding-top: 30px;
+    background-color: #f9fcfe;
+
 }
 
 #about h2 {
     margin-top: 0;
     margin-bottom: 40px;
     text-align: center;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 figure {
@@ -82,6 +86,8 @@ figure {
 
 img {
     height: 350px;
+    border: solid 15px black;
+    border-radius: 10%;
 }
 
 article {
@@ -92,5 +98,3 @@ article {
 p {
     margin: 0;
 }
-
-
