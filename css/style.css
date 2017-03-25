@@ -77,14 +77,14 @@ span {
     font-weight: 300;
 }
 
-figure {
+#about > figure {
     text-align: center;
     width: 50%;
     float: left;
     margin: 0;
 }
 
-img {
+#about > figure > img  {
     height: 350px;
     border: solid 15px black;
     border-radius: 10%;
@@ -98,3 +98,30 @@ article {
 p {
     margin: 0;
 }
+
+
+.skills-header {
+    
+    text-align: center;
+}
+
+
+.skills-icons {
+   
+    display: inline-block;  
+
+}
+
+.skills-content {
+    
+    text-align: center;
+}
+
+#skills-icons {
+    
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+
