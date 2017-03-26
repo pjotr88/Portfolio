@@ -10,11 +10,16 @@ span {
     font-weight: 500;
 }
 
+section2 {
+    padding: 0 80px 100px;
+    width: 100%;
+    
+}
+
 #menu {
     position: fixed;
     right: 0;
     top: 0;
-    width: 100%;
     background-color: #fff;
     z-index: 2;
     width: 100%;
@@ -29,6 +34,12 @@ span {
     display: inline-block;
     list-style: none;
     padding: 20px 40px;
+}
+
+#menu > ul > li > a {
+    color: #1ac056;
+    text-decoration: none;
+    font-weight: 300;
 }
 
 #menu .menu-item {
@@ -66,7 +77,6 @@ span {
     display: inline-block;
     padding-top: 30px;
     background-color: #f9fcfe;
-
 }
 
 #about h2 {
@@ -77,14 +87,14 @@ span {
     font-weight: 300;
 }
 
-#about > figure {
+#about>figure {
     text-align: center;
     width: 50%;
     float: left;
     margin: 0;
 }
 
-#about > figure > img  {
+#about>figure>img {
     height: 350px;
     border: solid 15px black;
     border-radius: 10%;
@@ -99,29 +109,131 @@ p {
     margin: 0;
 }
 
-
 .skills-header {
-    
     text-align: center;
+    margin-top: 60px;
 }
 
-
 .skills-icons {
-   
-    display: inline-block;  
-
+    display: inline-block;
 }
 
 .skills-content {
-    
     text-align: center;
 }
 
 #skills-icons {
-    
     text-align: center;
     padding-top: 20px;
+}
+
+#contact {
+    background: #213b50;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+#contact .contact-data {
+    
+    width: 50%;
+    float: left;
+    margin-left: 80px;
+}
+
+#contact .contact-data h2 {
+    
+  text-align: left;
+    font-size: 38px;
+    font-weight: 200;
+}
+
+
+#contact .contact-data address {
+   
+    font-style: normal;
+    margin-top: 72px;
+    margin-right: 72px;
+    margin-bottom: 72px;
+    line-height: 25px;
     
 }
+
+#contact .contact-data address a {
+    color: #1ac056;
+    
+}
+
+#contact .contact-data .contact-social-icons a {
+    display: inline-block;
+    color: #fff;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    line-height: 38px;
+    border: 1px solid #fff;
+    margin-right: 30px;
+    font-size: 22px;
+}
+    
+#contact .contact-data .contact-social-icons a:hover {
+    color: #213b50;
+    border: 1px solid #213b50;
+    background-color: #fff;
+    
+}
+
+
+#contact .contact-form {
+    width: 40%;
+    float: left;
+    margin-top: 100px;
+    
+}
+
+
+#contact .contact-form form input,
+#contact .contact-form form textarea {
+    
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #2b4a64;
+    border: #2b4a64 0px;
+    color: #fff;
+    margin-right: 72px;
+   
+}
+    
+#contact .contact-form form input:focus,
+#contact .contact-form form textarea:focus {
+
+background-color: #426684;
+    
+}  
+
+#contact .contact-form form input[type="submit"] {
+    
+    background-color: #1ac056;
+    color: #fff;
+    width: auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 30px;
+    float: right;
+    border: 1px #1ac056 solid;
+    margin-right: -30px;
+    
+}
+
+#contact .contact-form form input[type="submit"]:hover {
+    
+    background-color: #fff;
+    color: #1ac056;
+    cursor: pointer;  
+}
+    
+
+
 
 
